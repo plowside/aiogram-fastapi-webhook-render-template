@@ -5,10 +5,10 @@ import os
 
 from aiogram import Bot, Dispatcher, types
 
-TOKEN = os.getenv('TOKEN')
+TOKEN = '7359297157:AAEdorhyrCSnIrQOXNnX7HW8fmC6T5WbxRo'
 
 WEBHOOK_PATH = f"/bot/{TOKEN}"
-RENDER_WEB_SERVICE_NAME = "<YOUR_RENDER_WEB_SERVICE_NAME>"
+RENDER_WEB_SERVICE_NAME = "aiogram-fastapi-webhook-render-template-wl4z"
 WEBHOOK_URL = "https://" + RENDER_WEB_SERVICE_NAME + ".onrender.com" + WEBHOOK_PATH
 
 logging.basicConfig(filemode='a', level=logging.INFO)
